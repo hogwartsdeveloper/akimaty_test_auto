@@ -1,2 +1,2 @@
 # akimaty_test_auto
-Akimat projects
+Here I will do auto tests on the projects of the akimat
