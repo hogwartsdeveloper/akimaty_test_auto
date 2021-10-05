@@ -1,0 +1,4 @@
+selenium==3.14.0
+pytest==5.1.1
+pytest-rerunfailures==8.0
+pywinauto==0.6.8
