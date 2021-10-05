@@ -17,3 +17,11 @@ class MainPageLocators:
     BUTTON_WARNING_BANNER_CLOSE = (By.CSS_SELECTOR, ".warning-modal__close")
     BUTTON_LOGIN_CLIENT = (By.CSS_SELECTOR, "a[href='/Client']")
     BUTTON_LOGIN_EMPLOYEE = (By.CSS_SELECTOR, "a[href='/Employee']")
+
+
+class ClientPageLocators:
+    BANNER = (By.CSS_SELECTOR, "h1")
+
+
+class EmployeePageLocators:
+    NAME_CABINET_CHAPTER = (By.CSS_SELECTOR, "h1")

@@ -292,3 +292,310 @@ JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILU
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1633435954192	geckodriver	INFO	Listening on 127.0.0.1:51529
+1633435957337	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilewXNOZQ"
+1633435957971	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilewXNOZQ\\search.json.mozlz4", (void 0)))
+1633435961555	Marionette	INFO	Listening on port 52067
+1633435961660	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "DevExtreme.web", needed by: DevExpress
+http://requirejs.org/docs/errors.html#scripterror
+1633435972166	Marionette	INFO	Stopped listening on port 52067
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "vendor"
+http://requirejs.org/docs/errors.html#scripterror
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "resources"
+http://requirejs.org/docs/errors.html#scripterror
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "features"
+http://requirejs.org/docs/errors.html#scripterror
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390142,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390142,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633435973462	geckodriver	INFO	Listening on 127.0.0.1:58796
+1633435976578	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofile9D2MH2"
+1633435977201	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofile9D2MH2\\search.json.mozlz4", (void 0)))
+1633435980293	Marionette	INFO	Listening on port 62376
+1633435980836	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "DevExtreme.web", needed by: DevExpress
+http://requirejs.org/docs/errors.html#scripterror
+1633435989087	Marionette	INFO	Stopped listening on port 62376
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633435990025	geckodriver	INFO	Listening on 127.0.0.1:61346
+1633435993125	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilepMXGGW"
+1633435993701	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilepMXGGW\\search.json.mozlz4", (void 0)))
+1633435996917	Marionette	INFO	Listening on port 59285
+1633435997400	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "DevExtreme.web", needed by: DevExpress
+http://requirejs.org/docs/errors.html#scripterror
+1633436007832	Marionette	INFO	Stopped listening on port 59285
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "vendor"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "resources"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "features"
+http://requirejs.org/docs/errors.html#scripterror
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633436008990	geckodriver	INFO	Listening on 127.0.0.1:58659
+1633436012097	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilerR38Wa"
+1633436012747	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilerR38Wa\\search.json.mozlz4", (void 0)))
+1633436016112	Marionette	INFO	Listening on port 53354
+1633436016370	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "DevExtreme.web", needed by: DevExpress
+http://requirejs.org/docs/errors.html#scripterror
+1633436025562	Marionette	INFO	Stopped listening on port 53354
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633436157490	geckodriver	INFO	Listening on 127.0.0.1:64793
+1633436160565	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofiletMsz0n"
+1633436161158	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofiletMsz0n\\search.json.mozlz4", (void 0)))
+1633436164276	Marionette	INFO	Listening on port 55779
+1633436164821	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1633436177377	Marionette	INFO	Stopped listening on port 55779
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 596: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633436178573	geckodriver	INFO	Listening on 127.0.0.1:49729
+1633436181659	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileXA2pj1"
+1633436182316	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileXA2pj1\\search.json.mozlz4", (void 0)))
+1633436185509	Marionette	INFO	Listening on port 62568
+1633436185926	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "DevExtreme.web", needed by: DevExpress
+http://requirejs.org/docs/errors.html#scripterror
+1633436195737	Marionette	INFO	Stopped listening on port 62568
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "vendor"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "resources"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "features"
+http://requirejs.org/docs/errors.html#scripterror
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633436196843	geckodriver	INFO	Listening on 127.0.0.1:60024
+1633436199935	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilebSDtaI"
+1633436200498	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilebSDtaI\\search.json.mozlz4", (void 0)))
+1633436203769	Marionette	INFO	Listening on port 56026
+1633436204191	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "DevExtreme.web", needed by: DevExpress
+http://requirejs.org/docs/errors.html#scripterror
+1633436215529	Marionette	INFO	Stopped listening on port 56026
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "lib/dx/global-variables"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "jquery", needed by: vendor, ko-full, bootstrap-dialog
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "knockout", needed by: ko-full
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "knockout.validation", needed by: ko-full
+http://requirejs.org/docs/errors.html#scripterror
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "xin-validator", needed by: ko-full
+http://requirejs.org/docs/errors.html#scripterror
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390142,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390142,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390142,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390142,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "utils/age-validator", needed by: ko-full
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "jquery.inputmask", needed by: ko-full
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "remote", needed by: ko-full
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "ko-components", needed by: ko-full
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "lib/ko/ko-localization", needed by: ko-full
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "globalize-setup", needed by: DevExpress
+http://requirejs.org/docs/errors.html#scripterror
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633436216623	geckodriver	INFO	Listening on 127.0.0.1:61140
+1633436219753	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofile35UREs"
+1633436220403	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofile35UREs\\search.json.mozlz4", (void 0)))
+1633436223551	Marionette	INFO	Listening on port 52186
+1633436224029	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "DevExtreme.web", needed by: DevExpress
+http://requirejs.org/docs/errors.html#scripterror
+1633436233620	Marionette	INFO	Stopped listening on port 52186
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1633436359902	geckodriver	INFO	Listening on 127.0.0.1:59381
+1633436362995	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofile3uOyKD"
+1633436363681	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofile3uOyKD\\search.json.mozlz4", (void 0)))
+1633436367226	Marionette	INFO	Listening on port 64778
+1633436367318	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "DevExtreme.web", needed by: DevExpress
+http://requirejs.org/docs/errors.html#scripterror
+1633436378392	Marionette	INFO	Stopped listening on port 64778
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "vendor"
+http://requirejs.org/docs/errors.html#scripterror
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633436379474	geckodriver	INFO	Listening on 127.0.0.1:60601
+1633436382549	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilevfXxyp"
+1633436383158	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilevfXxyp\\search.json.mozlz4", (void 0)))
+1633436386241	Marionette	INFO	Listening on port 57726
+1633436386317	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "DevExtreme.web", needed by: DevExpress
+http://requirejs.org/docs/errors.html#scripterror
+1633436396727	Marionette	INFO	Stopped listening on port 57726
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "resources"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "features"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "vendor"
+http://requirejs.org/docs/errors.html#scripterror
+1633436397811	geckodriver	INFO	Listening on 127.0.0.1:55807
+1633436400906	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileiRRCGt"
+1633436401506	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileiRRCGt\\search.json.mozlz4", (void 0)))
+1633436404454	Marionette	INFO	Listening on port 63402
+1633436404628	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "DevExtreme.web", needed by: DevExpress
+http://requirejs.org/docs/errors.html#scripterror
+1633436414735	Marionette	INFO	Stopped listening on port 63402
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633436605476	geckodriver	INFO	Listening on 127.0.0.1:54447
+1633436608567	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofiled2Bngz"
+1633436609193	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofiled2Bngz\\search.json.mozlz4", (void 0)))
+1633436612049	Marionette	INFO	Listening on port 62636
+1633436612322	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "DevExtreme.web", needed by: DevExpress
+http://requirejs.org/docs/errors.html#scripterror
+1633436622743	Marionette	INFO	Stopped listening on port 62636
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "resources"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "features"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "vendor"
+http://requirejs.org/docs/errors.html#scripterror
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633436623877	geckodriver	INFO	Listening on 127.0.0.1:62725
+1633436626957	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileWORrnB"
+1633436627535	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileWORrnB\\search.json.mozlz4", (void 0)))
+1633436630872	Marionette	INFO	Listening on port 61591
+1633436631185	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "DevExtreme.web", needed by: DevExpress
+http://requirejs.org/docs/errors.html#scripterror
+1633436641153	Marionette	INFO	Stopped listening on port 61591
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "vendor"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "resources"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "features"
+http://requirejs.org/docs/errors.html#scripterror
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633436642553	geckodriver	INFO	Listening on 127.0.0.1:55908
+1633436645670	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilezIL9cZ"
+1633436646324	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilezIL9cZ\\search.json.mozlz4", (void 0)))
+1633436649416	Marionette	INFO	Listening on port 58335
+1633436649931	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "DevExtreme.web", needed by: DevExpress
+http://requirejs.org/docs/errors.html#scripterror
+1633436659421	Marionette	INFO	Stopped listening on port 58335
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
