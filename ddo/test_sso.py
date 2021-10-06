@@ -30,7 +30,7 @@ class TestAuthorization:
         employee_page = EmployeePage(browser, browser.current_url)
         employee_page.should_be_employee_page()
 
-    @pytest.mark.skip
+    @pytest.mark.xfail
     def test_client_log_in_rsa_key(self, browser):
         page = MainPage(browser, link)
         page.open()

@@ -21,6 +21,12 @@ class MainPageLocators:
 
 class ClientPageLocators:
     BANNER = (By.CSS_SELECTOR, "h1")
+    APPLICATION_SUBMISSION = (By.CSS_SELECTOR, ".service__title")
+
+
+class ApplicationPageLocators:
+    CONFIRM_INSTRUCTION = (By.CSS_SELECTOR, ".cs")
+    BUTTON_APPLY = (By.CSS_SELECTOR, "")
 
 
 class EmployeePageLocators:
