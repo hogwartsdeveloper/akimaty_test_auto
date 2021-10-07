@@ -26,7 +26,13 @@ class ClientPageLocators:
 
 class ApplicationPageLocators:
     CONFIRM_INSTRUCTION = (By.CSS_SELECTOR, ".cs")
-    BUTTON_APPLY = (By.CSS_SELECTOR, "")
+    BUTTON_APPLY = (By.CSS_SELECTOR, ".btn-success")
+    BUTTON_FORWARD = (By.CSS_SELECTOR, "input.btn-primary")
+    BUTTON_SUBMIT = (By.CSS_SELECTOR, "input[value='Отправить']")
+    INPUT_CHILD_IIN = (By.XPATH, "//label[@data-bind='text:_t.ChildIin']/..//input")
+    MESSAGE_VALIDATION_CHILD_IIN = (By.XPATH, "//label[@data-bind='text:_t.ChildIin']/..//span[1]")
+
+    INPUT_CHILD_NAME = (By.XPATH, "//label[@data-bind='text:_t.ShortChildFullName']/..//input")
 
 
 class EmployeePageLocators:
