@@ -24,37 +24,43 @@ class BasePage:
         path = os.path.join(current_dir, f"../keys/{self.type_user}/{self.key}")
         real_path = os.path.realpath(path)
         edk = ElectronicsDigitalKey(real_path, key_data.get(f"{self.type_user}"))
-        edk.signing_with_key()
+        return edk
 
     def client_signing_with_auth_key(self):
         self.type_user = "client"
         self.key = "AUTH_RSA256.p12"
-        self.signing_with_key()
+        edk = self.signing_with_key()
+        edk.signing_with_key()
 
     def client_signing_with_rsa_key(self):
         self.type_user = "client"
         self.key = "RSA256.p12"
-        self.signing_with_key()
+        edk = self.signing_with_key()
+        edk.signing_with_key()
 
     def employee_signing_with_auth_key(self):
         self.type_user = "employee"
         self.key = "AUTH_RSA256.p12"
-        self.signing_with_key()
+        edk = self.signing_with_key()
+        edk.signing_with_key()
 
     def employee_signing_with_rsa_key(self):
         self.type_user = "employee"
         self.key = "RSA256.p12"
-        self.signing_with_key()
+        edk = self.signing_with_key()
+        edk.signing_with_key()
 
     def expired_signing_with_auth_key(self):
         self.type_user = "expired"
         self.key = "AUTH_RSA256.p12"
-        self.signing_with_key()
+        edk = self.signing_with_key()
+        edk.signing_with_key()
 
     def expired_signing_with_rsa_key(self):
         self.type_user = "expired"
         self.key = "RSA256.p12"
-        self.signing_with_key()
+        edk = self.signing_with_key()
+        edk.signing_with_key()
 
     def is_element_present(self, how, what, timeout=4):
         try:

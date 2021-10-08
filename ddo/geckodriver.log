@@ -599,3 +599,24 @@ JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILU
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1633609796406	geckodriver	INFO	Listening on 127.0.0.1:55452
+1633609799496	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilex8yj9i"
+1633609799760	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilex8yj9i\\search.json.mozlz4", (void 0)))
+1633609801525	Marionette	INFO	Listening on port 60188
+1633609801562	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3900BE,name=PContent::Msg_StartVisitedQueries) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "DevExtreme.aspNet", needed by: DevExpress
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "DevExtreme.ru", needed by: DevExpress
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://10.202.19.110:5002/bundles/requirejs?v=HqdoK0sg_aGx0CBA8peGVoQiO3x3dYYUrqsfb4MmCc41, line 1: Error: Script error for "DevExtreme.kk", needed by: DevExpress
+http://requirejs.org/docs/errors.html#scripterror
+1633609836650	Marionette	INFO	Stopped listening on port 60188
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

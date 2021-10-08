@@ -4,7 +4,7 @@ from .locators import ClientPageLocators
 
 class ClientPage(BasePage):
 
-    def go_to_application_submission_page(self):
+    def go_to_application_page(self):
         application_submission_page = self.browser.find_element(*ClientPageLocators.APPLICATION_SUBMISSION)
         application_submission_page.click()
 

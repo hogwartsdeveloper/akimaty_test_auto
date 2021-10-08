@@ -30,9 +30,16 @@ class ApplicationPageLocators:
     BUTTON_FORWARD = (By.CSS_SELECTOR, "input.btn-primary")
     BUTTON_SUBMIT = (By.CSS_SELECTOR, "input[value='Отправить']")
     INPUT_CHILD_IIN = (By.XPATH, "//label[@data-bind='text:_t.ChildIin']/..//input")
+    LABEL_CHILD_IIN = (By.XPATH, "//label[@data-bind='text:_t.ChildIin']")
     MESSAGE_VALIDATION_CHILD_IIN = (By.XPATH, "//label[@data-bind='text:_t.ChildIin']/..//span[1]")
-
     INPUT_CHILD_NAME = (By.XPATH, "//label[@data-bind='text:_t.ShortChildFullName']/..//input")
+    LOAD_PAGE = (By.CSS_SELECTOR, ".loader__content")
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, ".conteiner > h3")
+
+
+class ApplicationLogPageLocators:
+    INPUT_CHILD_IIN = (By.XPATH, "//*[contains(@aria-label, 'Столбец ИИН ребенка')]//input")
+    SELECT_STATUS = (By.XPATH, "//*[contains(@aria-label, 'Статус')]//*[@role='button']")
 
 
 class EmployeePageLocators:
