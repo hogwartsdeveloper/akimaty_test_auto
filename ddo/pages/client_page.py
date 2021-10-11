@@ -5,8 +5,13 @@ from .locators import ClientPageLocators
 class ClientPage(BasePage):
 
     def go_to_application_page(self):
-        application_submission_page = self.browser.find_element(*ClientPageLocators.APPLICATION_SUBMISSION)
-        application_submission_page.click()
+        application_page = self.browser.find_element(*ClientPageLocators.APPLICATION_SUBMISSION)
+        application_page.click()
+
+    def go_to_application_log_page(self):
+        application_log = self.browser.find_element(*ClientPageLocators.APPLICATION_LOG)
+        application_log.click()
+
 
     def should_be_client_page(self):
         self.should_be_banner()

@@ -1,4 +1,6 @@
 selenium==3.14.0
 pytest==5.1.1
 pytest-rerunfailures==8.0
+allure-pytest==2.9.44
+allure-python-commons==2.9.44
 pywinauto==0.6.8

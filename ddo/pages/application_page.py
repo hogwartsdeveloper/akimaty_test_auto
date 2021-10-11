@@ -10,6 +10,11 @@ class ApplicationPage(BasePage):
         confirm_instruction = self.browser.find_element(*ApplicationPageLocators.CONFIRM_INSTRUCTION)
         confirm_instruction.click()
 
+    def confirm_success_message(self):
+        self.is_element_clickable(*ApplicationPageLocators.BUTTON_SUCCESS_CONFIRM)
+        button = self.browser.find_element(*ApplicationPageLocators.BUTTON_SUCCESS_CONFIRM)
+        button.click()
+
     def registration_information_about_the_applicant(self):
         button_apply = self.browser.find_element(*ApplicationPageLocators.BUTTON_APPLY)
         button_apply.click()
@@ -18,27 +23,28 @@ class ApplicationPage(BasePage):
         button_forward.click()
 
     def input_child_iin(self, child_iin):
-        self.should_be_input_child_iin_clickable()
+        time.sleep(2)
         input_child_iin = self.browser.find_element(*ApplicationPageLocators.INPUT_CHILD_IIN)
         input_child_iin.send_keys(child_iin)
+
+    def input_child_name(self, child_name):
         action = ActionChains(self.browser)
         action.move_by_offset(100, 100).perform()
         action.click().perform()
-
-    def input_child_name(self, child_name):
-        input_child_name = self.browser.find_element(*ApplicationPageLocators.INPUT_CHILD_NAME)
         self.should_be_load_page_disappeared()
+        input_child_name = self.browser.find_element(*ApplicationPageLocators.INPUT_CHILD_NAME)
         input_child_name.send_keys(child_name)
 
     def application_submit(self):
         button = self.browser.find_element(*ApplicationPageLocators.BUTTON_SUBMIT)
         button.click()
+        self.client_signing_with_rsa_key()
 
     def should_be_button_clickable(self):
         self.is_element_clickable(*ApplicationPageLocators.BUTTON_FORWARD), \
             "Button forward is not presented"
 
-    def should_be_input_child_iin_clickable(self):
+    def should_be_input_child_iin_presents(self):
         self.is_element_present(*ApplicationPageLocators.INPUT_CHILD_IIN), \
             "Input Child IIN is not clickable"
 
@@ -63,6 +69,7 @@ class ApplicationPage(BasePage):
             "Load page, not disappeared"
 
     def should_be_success_message(self):
+        time.sleep(2)
         message = self.browser.find_element(*ApplicationPageLocators.SUCCESS_MESSAGE).text
         message_expected = "ребенок успешно встал в очередь"
 

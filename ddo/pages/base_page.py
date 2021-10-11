@@ -69,7 +69,6 @@ class BasePage:
             )
         except TimeoutException:
             return False
-
         return True
 
     def is_not_element_present(self, how, what, timeout=4):
@@ -98,5 +97,4 @@ class BasePage:
             )
         except TimeoutException:
             return False
-
         return True
