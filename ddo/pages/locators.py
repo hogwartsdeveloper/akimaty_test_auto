@@ -26,19 +26,29 @@ class ClientPageLocators:
 
 
 class ApplicationPageLocators:
+    BUTTON_FORWARD = (By.CSS_SELECTOR, "[value='Вперед']")
+    BUTTON_SUBMIT = (By.CSS_SELECTOR, "[value='Отправить']")
+    BUTTON_SUCCESS_CONFIRM = (By.CSS_SELECTOR, "[value='ПОДАТЬ ЗАЯВКУ']")
+
     CONFIRM_INSTRUCTION = (By.CSS_SELECTOR, ".cs")
-    BUTTON_APPLY = (By.CSS_SELECTOR, ".btn-success")
-    BUTTON_FORWARD = (By.CSS_SELECTOR, "input.btn-primary")
-    BUTTON_SUBMIT = (By.CSS_SELECTOR, "input[value='Отправить']")
-    SETUP_CONTENT = (By.CSS_SELECTOR, "step-2")
+    CHECKBOX_PRIVILEGE = (By.CSS_SELECTOR, "[data-bind='checked:isPrivilage']")
+
     INPUT_CHILD_IIN = (By.XPATH, "//*[@id='step-2' and not (contains(@class, 'hidden'))]//label["
                                  "@data-bind='text:_t.ChildIin']/..//input")
-    LABEL_CHILD_IIN = (By.XPATH, "//label[@data-bind='text:_t.ChildIin']")
-    MESSAGE_VALIDATION_CHILD_IIN = (By.XPATH, "//label[@data-bind='text:_t.ChildIin']/..//span[1]")
     INPUT_CHILD_NAME = (By.XPATH, "//label[@data-bind='text:_t.ShortChildFullName']/..//input")
+    INPUT_DOCUMENT_CONFIRM_PRIVILEGE = (By.CSS_SELECTOR, "[type='file']")
+    LABEL_CHILD_IIN = (By.XPATH, "//label[@data-bind='text:_t.ChildIin']")
     LOAD_PAGE = (By.CSS_SELECTOR, ".loader__content")
-    SUCCESS_MESSAGE = (By.CSS_SELECTOR, ".conteiner > h3")
-    BUTTON_SUCCESS_CONFIRM = (By.CSS_SELECTOR, "button.btn-primary")
+    MESSAGE_VALIDATION_CHILD_IIN = (By.XPATH, "//label[@data-bind='text:_t.ChildIin']/..//span[1]")
+    MESSAGE_CONFIRM_DOCUMENT_PRIVILEGE = (By.CSS_SELECTOR, ".bootstrap-dialog-message")
+    SETUP_CONTENT = (By.CSS_SELECTOR, "step-2")
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, ".bootstrap-dialog-message [style='text-align:center'] > h3")
+    SELECT_PRIVILEGE_TYPE = (By.XPATH, "//select[contains(@data-bind, 'privilageType')]")
+    VALIDATION_MESSAGE_QUEUE = (By.XPATH, "//*[contains(text(), 'стоит в очереди')]")
+    VALIDATION_MESSAGE_AGE = (By.XPATH, "//input[@id='form-placeholder']/../span[@style='']")
+    VALIDATION_MESSAGE_CHILD_IIN = (By.XPATH,
+                                    "//*[@id='step-2' and not (contains(@class, 'hidden'))]//label["
+                                    "@data-bind='text:_t.ChildIin']/..//span[@style='']")
 
 
 class ApplicationLogPageLocators:

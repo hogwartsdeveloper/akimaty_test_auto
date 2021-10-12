@@ -94,7 +94,7 @@ class BasePage:
         try:
             WebDriverWait(self.browser, timeout).until(
                 EC.element_to_be_clickable((how, what))
-            )
+            ).click()
         except TimeoutException:
             return False
         return True
