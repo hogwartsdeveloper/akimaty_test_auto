@@ -9,7 +9,7 @@ class ElectronicsDigitalKeyLocators:
 
 class SSOPageLocators:
     FORM_SIGN = (By.CSS_SELECTOR, ".form")
-    BUTTON_SELECTION_CERTIFICATE = (By.CSS_SELECTOR, ".sign-btn")
+    BUTTON_SELECTION_CERTIFICATE = (By.CSS_SELECTOR, "button.sign-btn")
 
 
 class MainPageLocators:

@@ -2,7 +2,7 @@ from pages.main_page import MainPage
 from pages.sso_page import SSOPage
 from pages.client_page import ClientPage
 from pages.application_log_page import ApplicationLogPage
-import time
+import pytest
 
 
 link = "http://10.202.19.110:5002/"
@@ -10,6 +10,7 @@ child_iin = "200726600157"
 status = "в очереди"
 
 
+@pytest.mark.skip
 def test_application_log(browser):
     page = MainPage(browser, link)
     page.open()
